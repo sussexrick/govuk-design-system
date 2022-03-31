@@ -50,6 +50,8 @@ When using an address lookup, you should:
 
 ## Multiple text inputs
 
+Only use this example to ask for UK addresses:
+
 {{ example({group: "patterns", item: "addresses", example: "multiple", html: true, nunjucks: true, open: true, size: "xl"}) }}
 
 ### When to use multiple text inputs
@@ -79,7 +81,7 @@ If you use multiple text inputs, you should:
 
 Make sure there are enough text inputs to accommodate longer addresses if you know your users will need them. For example, allow users to include a company name or flat&nbsp;number.
 
-Royal Mail does not need a county as long as the town and postcode are included. You should include an optional county text input so that people who do not know their postcode can give a valid address.
+Make it optional for users to enter their county (such as Berkshire or Cumbria), unless you have good evidence of a need for it. It’s not part of a correct UK address, according to Royal Mail, and it’s not used to deliver post.
 
 #### Use the autocomplete attribute on multiple address fields
 
