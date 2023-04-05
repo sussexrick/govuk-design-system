@@ -6,6 +6,8 @@ theme: Help users to…
 aliases:
 backlog_issue_id: 213
 layout: layout-pane.njk
+status: Experimental
+statusMessage: This component is currently experimental and part of a community consultation.
 ---
 
 ## When to use this pattern
