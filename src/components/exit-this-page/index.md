@@ -11,7 +11,7 @@ statusMessage: This component is currently experimental and part of a community 
 
 Give users a way to quickly exit a service, website or application quickly and safely.
 
-This component must be used together with the pattern to help a user [exit the page quickly](/patterns/exit-the-page-quickly/).
+For service journeys, this component must be used together with the pattern to help a user [exit the page quickly](/patterns/exit-the-page-quickly/).
 
 ## When to use this component
 
@@ -21,9 +21,11 @@ Use the component on pages with sensitive information that could:
 
 For example, when a potential victim is using a service to help them leave a domestic abuser.
 
-You can use the component on either:
+You can use this component on either:
 - all the pages in a service
 - parts of the journey with sensitive information
+
+You can also use this component for standalone content pages, such as dashboards and guidance.
 
 ## When not to use this component
 
